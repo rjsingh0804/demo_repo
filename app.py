@@ -62,7 +62,7 @@ else:
                     st.session_state.chat_history.append({"question": question, "answer": answer})
 
                     # Force refresh to show updated chat
-                    st.experimental_rerun()
+                    st.rerun()
                 else:
                     st.error(f"Error {response.status_code}: {response.text}")
             except Exception as e:
