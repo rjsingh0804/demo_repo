@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Backend URL (update to your deployed backend)
-BACKEND_URL = "http://localhost:5000/ask"
+BACKEND_URL = "https://abcdefg.free.beeceptor.com/ask"
 
 st.title("Firm Q&A Assistant")
 
