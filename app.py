@@ -4,7 +4,7 @@ import requests
 # Backend URL (update to your deployed backend)
 BACKEND_URL = "https://abcdefg.free.beeceptor.com/ask"
 
-st.title("Firm Q&A Assistant")
+st.title("Our Headline For the Page")
 
 # Initialize session state
 if "service_account_verified" not in st.session_state:
